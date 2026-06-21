@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.whl
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+
+# Model checkpoints & weights (large files)
+checkpoints/**/*.pth
+checkpoints/**/*.pt
+checkpoints/**/*.bin
+checkpoints/**/*.ckpt
+checkpoints/**/*.h5
+checkpoints/**/*.pkl
+!checkpoints/stanford/chexbert/.gitignore
+
+# Data files (large datasets)
+data/iu_xray/
+data/mimic_cxr/*.json
+!data/mimic_cxr/base_probs.json
+
+# Logs and outputs
+logs/
+results/
+output/
+*.log
+*.out
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Wandb
+wandb/
+
+# Temporary files
+tmp/
+temp/
