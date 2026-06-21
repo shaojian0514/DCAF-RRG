@@ -408,22 +408,6 @@ bash test_iu_xray.sh
 
 ---
 
-## Citation
-
-If you find this work useful, please cite:
-
-```bibtex
-@inproceedings{shao2026dcaf,
-  title     = {Disease-Consistent Visual-Text Alignment and Fusion for Reliable Radiology Report Generation},
-  author    = {Shao, Jianjun and Tian, Yun},
-  booktitle = {Medical Image Computing and Computer Assisted Intervention -- MICCAI 2026},
-  year      = {2026},
-  publisher = {Springer}
-}
-```
-
----
-
 ## Acknowledgements
 
 This codebase builds upon:
